@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "zuck.js": "^2.1.0"
+  }
+}
