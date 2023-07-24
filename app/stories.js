@@ -1,6 +1,6 @@
 import help from './script.js'
 
-export const drawStories = async (data, id) => {
+const drawStories = async (data, id) => {
 let stories = await help.getStories(data);
 
 window.Zuck(document.querySelector(id), {
@@ -16,3 +16,4 @@ window.Zuck(document.querySelector(id), {
     stories
 });}
 
+export default drawStories

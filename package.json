@@ -12,5 +12,8 @@
     "slides"
   ],
   "author": "Alexandr Tokarev",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "zuck.js": "^2.1.0"
+  }
 }
