@@ -12,10 +12,6 @@
     <link rel="stylesheet" href="styles/zuck.css" />
 
     <!-- lib skins -->
-    <link rel="stylesheet" href="styles/snapgram.css" />
-    <link rel="stylesheet" href="styles/vemdezap.css" />
-    <link rel="stylesheet" href="styles/facesnap.css" />
-    <link rel="stylesheet" href="styles/snapssenger.css" />
     <link rel="stylesheet" href="styles/default.css" />
 </head>
 
@@ -24,6 +20,12 @@
     <script type="module" src="app/script.js"></script>
     <script src="https://unpkg.com/zuck.js/dist/zuck.js"></script>
     <script type="module" src="app/stories.js"></script>
+    <script type="module">
+        import { drawStories } from './app/stories.js';
+        import data from './data.json' assert {type: 'json'};
+
+        drawStories(data, "#stories")
+    </script>
 </body>
 
 </html>

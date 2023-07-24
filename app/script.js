@@ -5,21 +5,9 @@
     return Math.round(timeIndex - random);
   };
   
- const getCurrentSkin = () => {
-    return  {
-        avatars: true,
-        list: false,
-        autoFullScreen: false,
-        cubeEffect: true,
-        paginationArrows: false
-    };
-  };
-
-const getStories = async () => {
-
+const getStories = (data) => {
     try {
-        const res = await fetch('data.json')
-        const json = await res.json()
+        const json = data;
         const slides = json.items.map(item => (
             {
                 id: item.id, 
@@ -50,6 +38,6 @@ const getStories = async () => {
     }
 }
 
-export default {getStories, getCurrentSkin, timestamp}
+export default {getStories, timestamp}
   
 
