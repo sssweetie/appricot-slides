@@ -7,6 +7,7 @@
   
 const getStories = (data) => {
     try {
+        console.log(data)
         const json = data;
         const slides = json.items.map(item => (
             {

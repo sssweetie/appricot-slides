@@ -1,9 +1,11 @@
-import help from './script.js'
+import help from '../script.js'
 
-const drawStories = async (data, id) => {
-let stories = await help.getStories(data);
+import Zuck from 'zuck.js';
 
-window.Zuck(document.querySelector(id), {
+const drawStories = (data, id) => {
+let stories = help.getStories(data);
+
+Zuck(document.querySelector(id), {
     backNative: true,
     previousTap: true,
     skin: 'Default',

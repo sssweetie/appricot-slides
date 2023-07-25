@@ -2,7 +2,7 @@
   "name": "appricot-slides",
   "version": "1.0.2",
   "description": "",
-  "main": "app/stories.js",
+  "main": "app/script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
