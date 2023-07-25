@@ -39,6 +39,6 @@ const getStories = (data) => {
     }
 }
 
-export default {getStories, timestamp}
+export default getStories
   
 

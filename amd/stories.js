@@ -1,9 +1,9 @@
-import help from '../script.js'
+import getStories from '../script.js'
 
 import Zuck from '../node_modules/zuck.js'
 
 const drawStories = (data, id) => {
-    let stories = help.getStories(data);
+    let stories = getStories(data);
 
     Zuck(document.querySelector(id), {
         backNative: true,

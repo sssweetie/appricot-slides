@@ -50,7 +50,7 @@ const getStories = (data) => {
     }
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({getStories, timestamp});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getStories);
   
 
 
@@ -220,7 +220,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const drawStories = (data, id) => {
-    let stories = _script_js__WEBPACK_IMPORTED_MODULE_0__["default"].getStories(data);
+    let stories = (0,_script_js__WEBPACK_IMPORTED_MODULE_0__["default"])(data);
 
     _node_modules_zuck_js__WEBPACK_IMPORTED_MODULE_1__(document.querySelector(id), {
         backNative: true,
