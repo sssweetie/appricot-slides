@@ -1,6 +1,6 @@
 import help from '../script.js'
 
-import Zuck from 'zuck.js'
+import Zuck from '../node_modules/zuck.js'
 
 const drawStories = (data, id) => {
     let stories = help.getStories(data);
