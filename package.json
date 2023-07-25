@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "appricot-slides",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "amd/stories.js",
   "scripts": {
