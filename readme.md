@@ -15,7 +15,20 @@ Common - для обычных html страничек.
 Amd - скрипт импортирует библиотеку zuck.js из модулей node_modules
 
 Common - требует добавить скрипт в .html: 
- `<script src="https://unpkg.com/zuck.jsdist/zuck.js"></script>`
+ `<script src="https://unpkg.com/zuck.js/dist/zuck.js"></script>`
+
+---
+
+**Необходимо добавить соответствующие стили из папки node_modules**
+
+    <!-- demo styles -->
+    <link rel="stylesheet" href="node_modules/appricot-slides/styles/style.css" />
+
+    <!-- lib styles -->
+    <link rel="stylesheet" href="node_modules/appricot-slides/styles/zuck.css" />
+
+    <!-- lib skins -->
+    <link rel="stylesheet" href="node_modules/appricot-slides/styles/default.css" />
 
 ---
 

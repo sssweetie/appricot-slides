@@ -20,11 +20,10 @@
     <div id="stories" class="storiesWrapper"></div>
 
     <script src="https://unpkg.com/zuck.js/dist/zuck.js"></script>
-    <script type="module" src="script.js"></script>
     <script type="module">
         import data from './data.json' assert {type: 'json'};
         import drawStories from './common/stories.js'
-        
+
         drawStories(data, "#stories")
     </script>
 </body>
